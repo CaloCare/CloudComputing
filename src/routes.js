@@ -12,8 +12,8 @@ let routes = [
         handler: getAllFoodHandler,
     },
     {
-        method: 'GET',
-        path: '/food/search',  // Menambahkan query params untuk pencarian
+        method: 'POST',
+        path: '/food/search',  
         handler: searchFoodHandler,
     },
     {

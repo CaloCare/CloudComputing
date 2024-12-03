@@ -121,18 +121,20 @@ const deleteFoodByNameHandler = async (request, h) => {
 module.exports = { deleteFoodByNameHandler };
 
 const searchFoodHandler = async (request, h) => {
-    const { name } = request.query; // Mengambil query parameter "name"
+    const { name } = request.payload; // Mengambil nama dari body request
 
     if (!name) {
         return h.response({
             status: 'fail',
-            message: 'Parameter name tidak boleh kosong',
+            message: 'Field name tidak boleh kosong',
         }).code(400);
     }
 
     try {
         const db = new Firestore();
         const foodCollection = db.collection('food');
+
+        // Menggunakan query Firestore untuk mencari nama yang cocok
         const snapshot = await foodCollection.where('foodName', '>=', name)
                                              .where('foodName', '<=', name + '\uf8ff')
                                              .get();
@@ -144,6 +146,7 @@ const searchFoodHandler = async (request, h) => {
             }).code(404);
         }
 
+        // Mendapatkan data makanan
         const foods = snapshot.docs.map((doc) => doc.data());
 
         return h.response({

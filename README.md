@@ -151,12 +151,3 @@ https://calocare-266542065750.asia-southeast2.run.app
   "message": "Data makanan berhasil dihapus"
 }
 ```
-
-## Notes
-
-- All API endpoints require the payload to be in raw JSON format.
-- The `id` field for each food item is auto-generated using `nanoid`.
-- The `createdAt` field is auto-generated.
-``` 
-
-This `README.md` provides a clear and structured documentation for your Calocare Backend API. Let me know if you'd like to add or modify anything!

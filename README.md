@@ -160,7 +160,7 @@ https://calocare-266542065750.asia-southeast2.run.app
 **Method:**  
 `POST`
 
-**Body (raw JSON):**
+**Body (form-data):**
 ```form-data
 Key : 'file'
 

@@ -151,3 +151,24 @@ https://calocare-266542065750.asia-southeast2.run.app
   "message": "Data makanan berhasil dihapus"
 }
 ```
+
+### 4. Analyze Food (POST /predict)
+
+**URL:**  
+`https://calocare-266542065750.asia-southeast2.run.app/predict`
+
+**Method:**  
+`POST`
+
+**Body (raw JSON):**
+```form-data
+Key : 'file'
+
+```
+
+**Response:**
+```json
+{
+  "foodName: Dendeng Batokok"
+}
+```

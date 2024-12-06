@@ -152,10 +152,10 @@ https://calocare-266542065750.asia-southeast2.run.app
 }
 ```
 
-### 4. Analyze Food (POST /predict)
+### 5. Analyze Food (POST /predict)
 
 **URL:**  
-`https://calocare-266542065750.asia-southeast2.run.app/predict`
+`https://imageclassification-266542065750.asia-southeast2.run.app/predict`
 
 **Method:**  
 `POST`
@@ -169,6 +169,9 @@ Key : 'file'
 **Response:**
 ```json
 {
-  "foodName: Dendeng Batokok"
+  "foodName: Daging Rendang"
 }
 ```
+
+**Example Request & Response:**
+![Postman Test](postman.png)

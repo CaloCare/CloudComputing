@@ -1,4 +1,4 @@
-```markdown
+
 # Calocare Backend API
 
 This is the backend API for **Calocare**, which handles food data, including nutritional information. The API allows adding, retrieving, searching, and deleting food items in the system.

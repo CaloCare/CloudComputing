@@ -94,17 +94,10 @@ https://calocare-266542065750.asia-southeast2.run.app
 ### 3. Show Specified Food by Name (POST /food/search)
 
 **URL:**  
-`https://calocare-266542065750.asia-southeast2.run.app/food/search`
+`https://calocare2-266542065750.asia-southeast2.run.app/food/{id}`
 
 **Method:**  
-`POST`
-
-**Body (raw JSON):**
-```json
-{
-  "name": "Apple two"
-}
-```
+`GET`
 
 **Response:**
 ```json
@@ -133,17 +126,10 @@ https://calocare-266542065750.asia-southeast2.run.app
 ### 4. Delete Food (DELETE /food/delete-by-name)
 
 **URL:**  
-`https://calocare-266542065750.asia-southeast2.run.app/food/delete-by-name`
+`https://calocare2-266542065750.asia-southeast2.run.app/food/{id}`
 
 **Method:**  
 `DELETE`
-
-**Body (raw JSON):**
-```json
-{
-  "name": "Apple"
-}
-```
 
 **Response:**
 ```json

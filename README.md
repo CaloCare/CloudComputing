@@ -91,7 +91,7 @@ https://calocare-266542065750.asia-southeast2.run.app
 
 ---
 
-### 3. Show Specified Food by Name (POST /food/search)
+### 3. Show Specified Food by Name (POST /food/id)
 
 **URL:**  
 `https://calocare2-266542065750.asia-southeast2.run.app/food/{id}`
@@ -123,7 +123,7 @@ https://calocare-266542065750.asia-southeast2.run.app
 
 ---
 
-### 4. Delete Food (DELETE /food/delete-by-name)
+### 4. Delete Food (DELETE /food/id)
 
 **URL:**  
 `https://calocare2-266542065750.asia-southeast2.run.app/food/{id}`

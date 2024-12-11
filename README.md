@@ -91,7 +91,7 @@ https://calocare-266542065750.asia-southeast2.run.app
 
 ---
 
-### 3. Show Specified Food by Name (POST /food/id)
+### 3. Show Specified Food by Id (POST /food/id)
 
 **URL:**  
 `https://calocare2-266542065750.asia-southeast2.run.app/food/{id}`
